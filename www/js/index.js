@@ -37,8 +37,9 @@ var app = {
 		
 		var ref = window.open('http://soldev-alpha/PhoneGapPluginsTest/', '_blank', 'location=no');
 		ref.addEventListener( "loadstop", function() {
-			ref.executeScript({file: 'phonegap.js'});
-			ref.executeScript({file: 'battery.js'});
+			ref.executeScript({code: 'alert("execture script rulez!!")'});
+			//ref.executeScript({file: 'phonegap.js'});
+			//ref.executeScript({file: 'battery.js'});
 			//var loadedScrips = document.getElementsByTagName('script');
 			
 			//loadedScripts.forEach(function InjectScript(scriptSrc) {
