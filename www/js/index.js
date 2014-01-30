@@ -35,7 +35,7 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 		
-		var ref = window.open('http://soldev-alpha/PhoneGapPluginsTest/', '_blank', 'location=false');
+		var ref = window.open('http://soldev-alpha/PhoneGapPluginsTest/', '_blank', 'location=no');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
