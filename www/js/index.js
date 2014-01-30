@@ -45,7 +45,7 @@ var app = {
 			//loadedScripts.forEach(function InjectScript(scriptSrc) {
 			//	ref.executeScript()
 			//});->
-		}
+		});
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
