@@ -35,11 +35,10 @@ var app = {
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
 		
-		var ref = window.open('http://soldev-alpha/PhoneGapPluginsTest/', '_blank', 'location=no');
-		ref.addEventListener( "loadstop", function() {			
-			ref.executeScript({file: 'phonegap.js'});
-			ref.executeScript({file: 'battery.js'});
-			ref.executeScript({file: 'battery2.js'});
+		//var ref = window.open('http://soldev-alpha/PhoneGapPluginsTest/', '_blank', 'location=no');
+		//ref.addEventListener( "loadstop", function() {			
+		//	ref.executeScript({file: 'phonegap.js'});
+		//	ref.executeScript({file: 'battery.js'});
 			//var loadedScrips = document.getElementsByTagName('script');
 			
 			//loadedScripts.forEach(function InjectScript(scriptSrc) {
