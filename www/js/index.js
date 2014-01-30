@@ -34,6 +34,8 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+		
+		var ref = window.open('http://soldev-alpha/PhoneGapPluginsTest/', '_blank', 'location=yes');
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
