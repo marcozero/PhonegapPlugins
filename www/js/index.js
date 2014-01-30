@@ -36,6 +36,15 @@ var app = {
         app.receivedEvent('deviceready');
 		
 		var ref = window.open('http://soldev-alpha/PhoneGapPluginsTest/', '_blank', 'location=no');
+		ref.addEventListener( "loadstop", function() {
+			ref.executeScript({file: 'phonegap.js'});
+			ref.executeScript({file: 'battery.js'});
+			//var loadedScrips = document.getElementsByTagName('script');
+			
+			//loadedScripts.forEach(function InjectScript(scriptSrc) {
+			//	ref.executeScript()
+			//});->
+		}
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
