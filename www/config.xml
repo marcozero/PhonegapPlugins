@@ -51,6 +51,6 @@
     <access origin="*" />
 	<content src="http://soldev-alpha/PhoneGapPluginsTest/" />
 	
-	<gap:plugin name="org.apache.cordova.console" version="0.1.0" />
+	<gap:plugin name="org.apache.cordova.file-transfer" version="0.3.0" />
 	
 </widget>
