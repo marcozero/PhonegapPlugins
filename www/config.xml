@@ -51,7 +51,6 @@
     <access origin="*" />
 	<content src="http://soldev-alpha/PhoneGapPluginsTest/" />
 	
-	<gap:plugin name="org.apache.cordova.console" version="0.1.0" />	
-	<gap:plugin name="org.apache.cordova.media-capture" version="0.2.2" />
+	<gap:plugin name="org.apache.cordova.console" version="0.1.0" />
 	
 </widget>
