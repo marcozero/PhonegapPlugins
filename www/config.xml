@@ -54,6 +54,7 @@
 	<gap:plugin name="org.apache.cordova.camera" version="0.2.3" />
 	<gap:plugin name="org.apache.cordova.battery-status" version="0.1.0" />
 	<gap:plugin name="org.apache.cordova.media-capture" version="0.2.2" />
+	<gap:plugin name="org.apache.cordova.console" version="0.1.0" />
 	
 	
 </widget>
